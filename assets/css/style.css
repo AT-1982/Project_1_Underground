@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "roboto-Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    font-family: roboto-Regular;
+}
+
+h1 {
+    font-family: "roboto-Bold";
+    font-size: 3.8rem;
+}
+
+p {
+    line-height: 35px;
+    font-size: 1.1rem;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 15px 45px;
+    background-color: white;
+    color: black;
+    font-family: "roboto-Bold"
+}
+
+/*  SECTION 1, 2, 3  */
+
+#section1 {
+    background-image: url(../img/banner-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    color: white;
+}
+#section1 h1 {
+    padding-top: 210px;
+}
+#section1 p {
+    padding: 32px;
+    margin-bottom: 8px;
+}
+
+#section2 {
+    height: 500px;
+}
+
+#section2 h1 {
+    padding-top: 80px;
+}
+#section2 p {
+    padding: 32px;
+    margin: 12px 350px;
+    color: rgb(170, 164, 164);
+}
+#section2 .btn {
+    background-color: black;
+    color: white;
+}
+
+#section3 {
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+footer {
+    height: 120px;
+    background-color: rgb(37, 34, 34);
+    color: white;
+}
+footer h3 {
+    padding: 50px;
+}
